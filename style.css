@@ -1,0 +1,112 @@
+body {
+    background: rgb(37, 37, 37);
+    color: rgb(219, 219, 219);
+    font-family: Helvetica, Sans-Serif;
+    font-size: 20px;
+}
+
+.conteiner {
+    max-width: 600px;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+header,
+main {
+    padding: 30px;
+}
+
+#create {
+    background-color: rgb(40, 40, 40);
+    border: 1px solid rgb(60, 60, 60);
+    padding: 8px 16px;
+    width: 400px;
+    border-radius: 5px;
+    color: rgb(219, 219, 219);
+}
+
+#create:hover {
+    border: 1px solid rgb(65, 65, 65);
+    outline: none;
+}
+
+#create:focus {
+    border: 1px solid rgb(100, 100, 100);
+    outline: none;
+}
+
+#add {
+    border-radius: 5px;
+    border: none;
+    color: rgb(219, 219, 219);
+    padding: 8px 16px;
+    background-color: rgb(0, 123, 255);
+    transition-duration: .2s;
+}
+
+#add:hover {
+    background-color: rgb(0, 110, 230);
+}
+
+#add:focus {
+    background-color: rgb(0, 90, 185);
+    outline: none;
+}
+
+#lista {
+    margin: 30px 15px;
+}
+
+#lista li {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*background-color: rgb(30, 33, 34);*/
+}
+
+.input-item {
+    background: rgb(37, 37, 37);
+    border: none;
+    padding: 8px;
+    margin: 0px 10px;
+    width: 400px;
+    border-radius: 5px;
+    color: rgb(219, 219, 219);
+    transition-duration: .2s;
+}
+
+.input-item:hover {
+    background: rgb(65, 65, 65);
+    outline: none;
+}
+
+.input-item:focus {
+    border: 1px solid rgb(100, 100, 100);
+    outline: none;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: rgb(85, 85, 85);
+}
+
+.del {
+    border-radius: 5px;
+    border: none;
+    color: rgb(219, 219, 219);
+    padding: 8px 16px;
+    background-color: rgb(245, 86, 74);
+    transition-duration: .2s;
+}
+
+.del:hover {
+    background-color: rgb(226, 72, 61);
+}
+
+.del:focus {
+    background-color: rgb(216, 66, 55);
+    outline: none;
+}

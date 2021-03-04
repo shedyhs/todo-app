@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do App</title>
+</head>
+
+<body onload="start(); showToDos()">
+    <div class="conteiner">
+        <header>
+            <h1>To Do App</h1>
+        </header>
+        <main>
+            <input type="text" id="create" placeholder="O que tenho para fazer?">
+            <button type="submit" id="add" onclick="createToDo(); showToDos()">+</button>
+            <ul id="lista">
+
+            </ul>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
